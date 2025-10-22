@@ -25,6 +25,7 @@ package student_management_system.v3;
  * 4.关于String的话
  * （调用）.equals（被调用），确认被调用的对象，是不是和调用的对象完全相等？每个字母或者汉字、数字都要相等。
  * （调用）.contains（被调用），确认被调用的对象里，被不被调用的对象包含，比如说确认一个字母，是不是被调用的对象包含。
+ * 5.在关于操作数组的情况下，传入的形参也要用数组类型，用一个的情况才是直接操作类成员数组。
  */
 
 import student_management_system.v3.manger.Menu;
@@ -36,3 +37,4 @@ public class Main {
 
     }
 }
+
